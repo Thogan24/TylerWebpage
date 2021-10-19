@@ -1,0 +1,59 @@
+        /* html covers the whole page! */
+        html{
+            background-color: rgb(60, 148, 163);
+            font-family: "Open Sans", "sans-serif";
+        }
+        
+        
+        h1 {
+            /*  */
+            font-size: 60px;
+            text-align: center;
+            font-family: "Open Sans", "sans-serif";
+        }
+        p, li {
+            font-size: 16px;
+            line-height: 2;
+            letter-spacing: 1px;
+            font-family: "Open Sans", "sans-serif";
+        }
+        .bold {
+            font weight: bold;
+        }
+        li.bold{
+            font-style:italic;
+        }
+        p.bold{
+            text-decoration:underline;
+        }
+        
+        body {
+            background-color: orange;
+            width: 600px;
+            margin: 0 auto;
+            padding: 0 20px 20px 20px;
+            border: 5px solid black;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 20px 0;
+        }
+
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            /* height: auto; */
+        }
+
+        div.coolbox{
+            border: lightblue dotted 3px;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        span.language{
+            font-family: 'Courier New', Courier, monospace;
+        }
